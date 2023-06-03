@@ -1,0 +1,195 @@
+body {
+  background: url(groud.jpg);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  /* home anggota dll*/
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: flex-end;
+  line-height: 30px;
+  position: -webkit-sticky;
+  top: 0;
+  background-color: #3D5656;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+}
+
+nav ul li {
+  float: left;
+
+}
+
+h1 {
+
+  text-align: center;
+  margin-top: 50px;
+  color: #2c3c4b;
+  font-family: cursive;
+}
+
+.kolom {
+
+  float: right;
+  width: 80%;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+nav ul li a:hover {
+  color: #ca336d;
+  transition: all .5s ease-in-out;
+}
+
+img {
+  margin-right: 10px;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  /*tampilan kotak form */
+  width: 500px;
+  margin: 0 auto;
+  background-color: #94b0b8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+select,
+input[type="number"],
+button {
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(69, 67, 67, 0.1);
+  background-color: #f2f2f2;
+  color: #333;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+button {
+  background-color: #94688a;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button li a materi.html {
+  color: #fff;
+}
+
+button:hover {
+  background-color: #3D5656;
+}
+
+h2 {
+  font-family: cursive;
+}
+
+hr {
+  color: #3D5656;
+}
+
+nav ul li a {
+  /* home beranda dll */
+  color: rgb(162, 157, 157);
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+#hasil {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* Style untuk heading 1 */
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+/* Style untuk container (box layout) */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #617d7d;
+}
+
+/* Style untuk profil */
+.profile {
+  margin: 20px;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+/* Style untuk gambar profil */
+.profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+
+}
+
+/* Style untuk nama profil */
+.profile h3 {
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+/* Style untuk username */
+.profile li {
+  margin-top: 5px;
+  font-size: 1.2em;
+  list-style: none;
+}
+
+/* Style untuk link username */
+.profile li a {
+  text-decoration: none;
+  color: #c1c0c0;
+  font-weight: bold;
+}

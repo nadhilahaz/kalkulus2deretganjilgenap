@@ -1,0 +1,54 @@
+<!DOCTYPE html> <!--deklarasi tipe dokumen-->
+<html> <!-- ini adalah tag html, awal dari dok html dan nanti akan ditutup oleh slas html dibawah didalamnya ada 2 tag utama yaitu head dan body-->
+  <head>
+    <meta charset="utf_8">
+    <title>Kalkulator Deret Ganjil Genap</title><!--data dokumen termasuk judul dokumen( yg akan muncul di tab browser) atau judul halaman web-->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="main.js"> </script> <!--Fungsi matematika js, dengan memanggil file js, kalo ga pake defer gakan jalan jadi menggunakan defer agar menunggu dulu html di render/tampil dilayar baru js dijalankan-->
+  </head>
+  <body> <!--bagian html yg berisi visual dari halaman teks, gambar dll-->
+    <nav> <!--navigasi. ini merujsuk ke halaman lain atau halaman web itu sendiri.-->
+      <div> <!--peneglompokan -->
+        <div class="fcontainer">
+          </div>
+          <nav class="wrapper">
+            <div class="title">
+              <div class="firstname"></div>
+            <ul class="navigation">
+              <li><a href="index.html">Home</a></li>  <!--List item-->
+              <li><a href="materi.html">Materi</a></li>
+              <li><a href="kalkulator.html" class="active">Kalkulator</a></li>
+              <li><a href="About.html">About</a></li>
+            </ul>
+          </nav>
+        </div>
+      </nav> 
+		
+			<section id="kalkulator"> 
+      </section>
+    <html>
+      <title>Program Deret Ganjil Genap</title>
+    <body>
+      <h1>Program Deret Ganjil Genap</h1>
+  
+      <form> <!--perintah untuk membuat form untuk input bilangan-->
+      <label for="deret">Pilih jenis deret:</label> <!--perintah untuk menampilan label "pilih jenis deret"-->
+      <select id="deret" name="deret"> <!--perintah untuk membuat select box dengan id "deret dan nama "deret-->
+        <option value="ganjil">Bilangan Ganjil</option> <!--perintah untuk menambahkan option bilangan ganjil ke dalam select box-->
+        <option value="genap">Bilangan Genap</option><!--perintah untuk menambahkan option bilangan genap ke dalam select box-->
+      </select> <!--menutup select box yg dibuat sebelumnya-->
+      <br> <!--untuk garis baru-->
+      <label for="batas">Masukkan batas:</label> <!--perintah untuk menampiljan label "masukkan bataas"-->
+      <input type="number" id="batas" name="batas" min="1"> <!--perintah untuk membuat input box dengan tipe "number dengan id "batas", nama "batas", dan nilai minimum 1-->
+      <br>
+      <label for="suku_ke">Masukkan suku ke-n:</label> <!--perintah untuk memasukkan label "masukkan suku ku n"-->
+      <input type="number" id="suku_ke" name="suku_ke" min="1"> <!--perintah untuk membuat input box dengan tipe "number dengan id "suku ke " nama "suku ke" dan nilai minimum "1"-->
+      <br>
+      <button type="button" onclick="hitung()">Hitung</button> <!--perintah untuk membuat tombol "hitung" dengan fungsi on click "hitung()"-->
+      <button type="button" onclick="reset()">Reset</button> <!--perintah untuk membuat tombol "reset" dengan fungsi on click "reset ()"-->
+      <p>Klik tombol di bawah ini untuk keluar dari kalkulator:</p>
+      <button <li><a href="index.html">Keluar</a></li> </button>
+    </form>
+    <p id="hasil"></p>
+  </body>
+  </html>
